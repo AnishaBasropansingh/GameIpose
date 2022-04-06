@@ -13,7 +13,7 @@ public class Game extends GameApplication {
     protected void initSettings(GameSettings settings) {
         settings.setWidth(1280);
         settings.setHeight(720);
-        settings.setTitle("Infinity Rails");
+        settings.setTitle("naamloos.txm");
         settings.setVersion("1.0");
 
         settings.setMainMenuEnabled(true);
