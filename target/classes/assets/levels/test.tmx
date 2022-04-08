@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="12">
+ <tileset firstgid="1" name="tile_cave_platform" tilewidth="32" tileheight="32" tilecount="132" columns="11">
+  <image source="../../../../../../SE-CW-Bestanden/Tileset/environment/tiles/cave/tile_cave_platform.gif" width="352" height="384"/>
+ </tileset>
+ <layer id="1" name="Tilelaag 1" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,38,39,40,0,0,0,
+45,46,47,48,49,50,51,52,0,0,
+56,57,58,59,60,71,62,63,64,65,
+67,68,69,70,71,71,71,74,75,76
+</data>
+ </layer>
+ <objectgroup id="5" name="Objectlaag 1">
+  <object id="10" name="player" type="player" x="30" y="177.333" width="27.3333" height="31.3333"/>
+  <object id="11" name="platform" type="platform" x="0" y="268" width="320" height="52"/>
+ </objectgroup>
+</map>
